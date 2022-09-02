@@ -1,4 +1,4 @@
-package ua.andriy.danilevskyy.hillel.competition.models;
+package ua.andriy.danilevskyy.hillel.competition.models.participants;
 
 public class Participant {
     protected String name;

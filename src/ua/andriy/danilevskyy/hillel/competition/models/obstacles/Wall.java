@@ -1,4 +1,4 @@
-package ua.andriy.danilevskyy.hillel.competition.models;
+package ua.andriy.danilevskyy.hillel.competition.models.obstacles;
 
 public class Wall extends Obstacle {
     private final String name = "Wall";

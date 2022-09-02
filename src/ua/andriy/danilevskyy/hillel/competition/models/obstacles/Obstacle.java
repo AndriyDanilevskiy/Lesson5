@@ -1,9 +1,10 @@
-package ua.andriy.danilevskyy.hillel.competition.models;
+package ua.andriy.danilevskyy.hillel.competition.models.obstacles;
 
 public class Obstacle {
     public String getName(){
         return null;
     }
+
     public int getDistance() {
         return 0;
     }

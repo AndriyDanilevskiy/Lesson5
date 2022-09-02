@@ -1,12 +1,15 @@
-package ua.andriy.danilevskyy.hillel.shapes.models;
+package ua.andriy.danilevskyy.hillel.competition.event;
 
-import ua.andriy.danilevskyy.hillel.competition.models.*;
+import ua.andriy.danilevskyy.hillel.competition.models.obstacles.Obstacle;
+import ua.andriy.danilevskyy.hillel.competition.models.obstacles.Track;
+import ua.andriy.danilevskyy.hillel.competition.models.participants.Participant;
 
 import java.util.List;
 
 public class Competition {
     public void startCompetition(List<Participant> participants, List<Obstacle> obstacles) {
         System.out.println("Lets the Competition begin!");
+
         for (Participant participant : participants) {
             System.out.println(participant.getName() + " begins!");
 

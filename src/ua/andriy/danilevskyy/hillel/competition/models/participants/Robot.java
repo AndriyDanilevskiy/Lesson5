@@ -1,4 +1,4 @@
-package ua.andriy.danilevskyy.hillel.competition.models;
+package ua.andriy.danilevskyy.hillel.competition.models.participants;
 
 public class Robot extends Participant {
     public Robot(String name, int runLimit, int jumpLimit) {

@@ -1,8 +1,7 @@
-package ua.andriy.danilevskyy.hillel.competition.models;
+package ua.andriy.danilevskyy.hillel.competition.models.participants;
 
-public class Man extends Participant {
-
-    public Man(String name, int runLimit, int jumpLimit) {
+public class Cat extends Participant {
+    public Cat(String name, int runLimit, int jumpLimit) {
         super.name = name;
         super.runLimit = runLimit;
         super.jumpLimit = jumpLimit;
