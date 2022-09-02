@@ -1,9 +1,7 @@
 package ua.andriy.danilevskyy.hillel;
 
-import ua.andriy.danilevskyy.hillel.shapes.models.Circle;
-import ua.andriy.danilevskyy.hillel.shapes.models.Measurable;
-import ua.andriy.danilevskyy.hillel.shapes.models.Square;
-import ua.andriy.danilevskyy.hillel.shapes.models.Triangle;
+import ua.andriy.danilevskyy.hillel.competition.models.*;
+import ua.andriy.danilevskyy.hillel.shapes.models.*;
 
 import java.util.List;
 
@@ -11,6 +9,7 @@ import static ua.andriy.danilevskyy.hillel.shapes.utils.AreaCalculator.calculate
 
 public class Main {
     public static void main(String[] args) {
+        //Shapes
         Square square = new Square(10);
         Circle circle = new Circle(2);
         Triangle triangle = new Triangle(17, 3);
@@ -27,5 +26,23 @@ public class Main {
                 new Circle(34)
         );
         System.out.println("Total area of all shapes is: " + calculateTotalArea(shapeList));
+
+
+        //Super Random Sport Event
+        List<Participant> participants = List.of(
+                new Man("Andy", (int) (Math.random() * 100), (int) (Math.random() * 10)),
+                new Cat("Murzik", (int) (Math.random() * 100), (int) (Math.random() * 10)),
+                new Robot("Ron", (int) (Math.random() * 100), (int) (Math.random() * 10))
+        );
+
+        List<Obstacle> obstacles = List.of(
+                new Track((int) (Math.random() * 100)),
+                new Wall((int) (Math.random() * 10)),
+                new Wall((int) (Math.random() * 10)),
+                new Track((int) (Math.random() * 100))
+        );
+
+        Competition competition = new Competition();
+        competition.startCompetition(participants, obstacles);
     }
 }
