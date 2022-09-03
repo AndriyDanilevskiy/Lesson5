@@ -1,6 +1,6 @@
 package ua.andriy.danilevskyy.hillel.shapes.utils;
 
-import ua.andriy.danilevskyy.hillel.shapes.models.Measurable;
+import ua.andriy.danilevskyy.hillel.shapes.model.Measurable;
 
 import java.util.List;
 

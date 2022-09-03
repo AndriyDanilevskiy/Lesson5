@@ -1,4 +1,4 @@
-package ua.andriy.danilevskyy.hillel.shapes.models;
+package ua.andriy.danilevskyy.hillel.shapes.model;
 
 public class Circle implements Measurable {
     private final int radius;

@@ -1,6 +1,6 @@
 package ua.andriy.danilevskyy.hillel.shapes;
 
-import ua.andriy.danilevskyy.hillel.shapes.models.*;
+import ua.andriy.danilevskyy.hillel.shapes.model.*;
 
 import java.util.List;
 
