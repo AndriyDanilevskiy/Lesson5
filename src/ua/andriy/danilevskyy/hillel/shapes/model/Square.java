@@ -9,6 +9,6 @@ public class Square implements Measurable {
 
     @Override
     public double getAria() {
-        return side * side;
+        return Math.pow(side, 2);
     }
 }

@@ -1,6 +1,6 @@
 package ua.andriy.danilevskyy.hillel.competition.models.participants;
 
-public class Participant {
+public abstract class Participant {
     protected String name;
     protected int runLimit;
     protected int jumpLimit;

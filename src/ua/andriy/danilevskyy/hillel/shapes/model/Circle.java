@@ -9,6 +9,6 @@ public class Circle implements Measurable {
 
     @Override
     public double getAria() {
-        return Math.PI * (radius * radius);
+        return Math.PI * (Math.pow(radius, 2));
     }
 }
